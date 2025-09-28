@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/', // Use '/' for a user/organization page like 'username.github.io'
   plugins: [
     vue(),
     vueDevTools(),
